@@ -1,3 +1,5 @@
+## O app está disponível para instalação via AAB em ./app-release.aab
+
 ## Instalação
 Utilizamos o Expo para rodar o projeto, precisamos de duas ferramentas dele para isso:
 o `Expo CLI` para servir o projeto e o aplicativo mobile `Expo Go` para abrir o app no Android ou iOS.
