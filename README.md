@@ -1,12 +1,12 @@
-## O app está disponível para instalação via AAB em ./app-release.aab
+## The app is available for installation via AAB at ./app-release.aab
 
-## Instalação
-Utilizamos o Expo para rodar o projeto, precisamos de duas ferramentas dele para isso:
-o `Expo CLI` para servir o projeto e o aplicativo mobile `Expo Go` para abrir o app no Android ou iOS.
+## Installation
+We use Expo to run the project, we need two of its tools for that:
+the `Expo CLI` to serve the project and the `Expo Go` mobile app to open the app on Android or iOS.
 
 ### 1. Expo CLI
 ```
-# Instala a CLI do expo no seu sistema
+# Install the expo CLI on your system
 npm install --global expo-cli
 ```
 
@@ -14,12 +14,12 @@ npm install --global expo-cli
 - 🤖 [Android Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) - Android Lollipop (5) and greater.
 - 🍎 [iOS App Store](https://itunes.com/apps/exponent) - iOS 10 and greater.
 
-## Desenvolvimento
+## Development
 ```
 yarn start
-# ou
+# or
 npm start
-# ou
+# or
 expo start
 ```
-Após rodar o comando, escaneie o QR code usando o aplicativo `Expo Go`
+After running the command, scan the QR code using the `Expo Go` app
