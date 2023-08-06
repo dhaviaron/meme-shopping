@@ -1,9 +1,9 @@
 {
-  "name": "Stone Ton",
-  "displayName": "Stone Ton",
+  "name": "Meme Shopping",
+  "displayName": "Meme Shopping",
   "expo": {
-    "name": "Stone Ton",
-    "slug": "stone-ton",
+    "name": "Meme Shopping",
+    "slug": "meme-shopping for",
     "icon": "./src/assets/images/icon.png",
     "version": "1.0",
     "orientation": "portrait",
@@ -15,7 +15,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.stone.ton",
+      "bundleIdentifier": "com.memeShopping",
       "userInterfaceStyle": "light"
     },
     "android": {
@@ -23,7 +23,7 @@
       "adaptiveIcon": {
         "backgroundColor": "#ED5F3D"
       },
-      "package": "com.stone.ton",
+      "package": "com.memeShopping",
       "versionCode": 14
     },
     "web": {}

@@ -90,11 +90,11 @@ function ShoppingCartPage() {
       <Container>
         <Header>
           <BackButtonIcon onPress={handleNavigateToHome} />
-          <HeaderTitle>Minha cesta</HeaderTitle>
-          <ItemTitle>{itemsQuantity} produtos adicionados</ItemTitle>
+          <HeaderTitle>My Cart</HeaderTitle>
+          <ItemTitle>{itemsQuantity} added items</ItemTitle>
 
           <RemoveItemButton onPress={clearShoppingCart}>
-            <RemoveItemButtonText>Remover ({cartSize})</RemoveItemButtonText>
+            <RemoveItemButtonText>Remove ({cartSize})</RemoveItemButtonText>
           </RemoveItemButton>
         </Header>
         <MainContainer>
@@ -108,7 +108,7 @@ function ShoppingCartPage() {
           />
 
           <ButtonBack onPress={handleNavigateToHome}>
-            <ButtonBackText>Voltar a lista</ButtonBackText>
+            <ButtonBackText>Go Back</ButtonBackText>
           </ButtonBack>
         </MainContainer>
       </Container>

@@ -56,7 +56,7 @@ const Home: React.FC = () => {
               });
             }}
           >
-            <ItemButtonText>Remover</ItemButtonText>
+            <ItemButtonText>Remove</ItemButtonText>
           </RemoveItemButton>
         ) : (
           <AddItemButton
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
               });
             }}
           >
-            <ItemButtonText>Adicionar</ItemButtonText>
+            <ItemButtonText>Add</ItemButtonText>
           </AddItemButton>
         )}
       </CardItem>
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
           !loading && data.length === 0 ? (
             <View style={{ flex: 1, backgroundColor: "green" }}>
               <Title style={{ textAlign: "center" }}>
-                Sem itens para a busca atual
+                No results for current search
               </Title>
             </View>
           ) : null
